@@ -1,0 +1,37 @@
+﻿{
+  "Files": [
+    "AppSetup.h",
+    "AppLogic.h",
+    "Examples.h",
+    "Readme.md"
+  ],
+  "Modules": [
+    "Buttons",
+    "LEDs",
+    "LCD",
+    "SDCard",
+    "SDCard-Settings"
+  ],
+  "Areas": [
+    {
+      "Name": "DEFINE",
+      "NewLine": true
+    },
+    {
+      "Name": "INIT",
+      "NewLine": false
+    },
+    {
+      "Name": "LOOP",
+      "NewLine": false
+    },
+    {
+      "Name": "EXAMPLES",
+      "NewLine": true
+    },
+    {
+      "Name": "RUNEXAMPLES",
+      "NewLine": true
+    }
+  ]
+}
